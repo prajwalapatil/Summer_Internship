@@ -1,3 +1,3 @@
 # Summer_Internship
 
-internship-work
+2WEEKs internship-work 
