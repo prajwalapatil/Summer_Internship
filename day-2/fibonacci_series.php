@@ -2,7 +2,7 @@
 //DATE : 26/5/2021 TASK-6 Fibonacci Series
 ?>
 <html>
-<title>Factorial Of Number</title>
+<title>Fibonacci Series</title>
 <body bgcolor="pink">
 <form action="#" method="post">
 <label>Enter Number</label>
