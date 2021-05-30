@@ -1,4 +1,4 @@
-DATE : 25/5/2021
+DATE : 25/5/2021 PHP CODE
 <html>
 <head>
 <title>Registration Form</title>
