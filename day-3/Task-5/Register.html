@@ -1,0 +1,114 @@
+<!--DATE : 27/5/2021 TASK-5 Employee Registeration DEMO-->
+<html>  
+<head> 
+<title>Registeration Form</title> 
+<style>  
+body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: yellow;  
+}  
+.container {  
+    padding: 500px;  
+  background-color: deepskyblue;  
+}  
+  
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 10px;  
+  margin: 2px 0 5px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: orange;  
+  outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: #0000ff;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}  
+</style>  
+</head>  
+<body>  
+<form method="post" action="GetData.php">  
+  <div class="container">  
+  <center>  <b><h1> Employee Registeration Form</h1></b> </center>  
+  <hr>  
+  <label><b> Firstname</b> </label>   
+<input type="text" name="firstname" placeholder= "Firstname" size="15" required />   
+  
+<label><b> Lastname: </b></label>    
+<input type="text" name="lastname" placeholder="Lastname" size="15"required />   
+<label><b> Company Name: </b></label>    
+<input type="text" name="company" placeholder="Company Name" size="15"required />   
+<div>  
+ <label for="email"><b>Email</b></label>  
+ <input type="text" placeholder="Enter Email" name="email" required>  
+<label><b> 
+Gender :  
+</b></label><br>  
+<input type="radio" value="Male" name="gender" checked > Male   
+<input type="radio" value="Female" name="gender"> Female   
+  <br><br>
+  <label><b>
+Designation :  
+</b></label>   
+  
+<select name="designation" required>  
+<option value="Designation">Designation</option>  
+<option value="System Engineer">System Engineer</option>  
+<option value="Project Manager">Project Manager</option>  
+<option value="Web Developer">Web Developer</option>  
+<option value="App Developer">App Developer</option>  
+<option value="Project Analyst">Project Analyst</option>  
+</select>  
+  
+<label><b>
+Technology :  
+</b></label>   
+  
+<select name="technology" required>  
+<option value="Technology">Technology</option>  
+<option value="Android">Android</option>  
+<option value="Python">Python</option>  
+<option value="PHP">PHP</option>  
+<option value="Node JS">Node JS</option>  
+<option value=".NET">.NET</option>  
+</select>  
+</div>  
+ 
+<label> <b>  
+Phone : 
+</b></label>    
+<input type="text" name="phone" placeholder="phone no." size="10" required> 
+   
+<label><b>Current Address : </b></label> 
+<textarea cols="80" rows="2" placeholder="Current Address" name="address" required>  
+</textarea>  
+
+  
+    <label for="psw"><b>Password</b></label>  
+    <input type="password" placeholder="Enter Password" name="password" required>  
+  
+     
+    <button type="submit" class="registerbtn">Register</button>    
+</form>  
+</body>  
+</html>  
