@@ -1,5 +1,5 @@
 <?php 
-//DATE : 29/5/2021 TASK-3 All Array Function Demontration
+//DATE : 31/5/2021 TASK-3 All Array Function Demontration
 //count ()
 echo "Count() Function : ";
 $arr = array('one','two','three','four','five');
