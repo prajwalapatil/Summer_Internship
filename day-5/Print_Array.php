@@ -1,4 +1,4 @@
-<!--DATE : 29/5/2021 TASK-1 Student Print Array DEMO-->
+<!--DATE : 31/5/2021 TASK-1 Student Print Array DEMO-->
 <?php
 //numerical array
 //method 1
