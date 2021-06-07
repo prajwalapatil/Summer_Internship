@@ -1,4 +1,4 @@
-<!--DATE : 29/5/2021 TASK-2 Associative Array DEMO-->
+<!--DATE : 31/5/2021 TASK-2 Associative Array DEMO-->
 <?php
 // associative array
 //key = value
